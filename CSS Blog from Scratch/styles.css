@@ -1,0 +1,59 @@
+
+body{
+	border: 20px solid #bdc3c7;
+	padding: 20px;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2{
+	color: #2c3e50;
+	font-size: 2.0rem;
+}
+
+.quote{
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+.date{
+	text-transform: uppercase;
+	color: #3498db;
+	letter-spacing: 0.2rem;	
+}
+
+.post{
+	margin-bottom: 20px;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	
+}
+
+nth-of:p 1{
+
+}
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
